@@ -1,0 +1,99 @@
+/* Start of Tags */
+
+body {
+    background-color: #da532c;
+}
+
+header {
+    text-align: center;
+    padding: 40px 0;
+}
+    
+img {
+    max-width: 100%;
+}
+/* End of Tags */
+
+/* Start of IDs */
+
+#home {
+    margin-top: 100px;
+}
+
+/* End of IDs */
+
+/* Start of Classess */
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 1.5em;
+    padding: 0 50px 0 50px;
+}
+
+.menu a:hover {
+    color: #CDCCCC;
+}
+
+.menu li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+.name {
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 3em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.profession {
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    text-align: center;
+}
+
+.photo {
+    width: 250px;
+    height: 250px;
+    border-radius: 125px;
+    -webkit-border-radius: 125px;
+    -moz-border-radius: 125px;
+    background: url(http://mateuszostaszewski.pl/img/photo.jpg) no-repeat;
+    margin: 0 auto;
+    -webkit-transition:all 0.5s ease-out;
+    -moz-transition:all 0.5s ease-out;
+    -ms-transition:all 0.5s ease-out;
+    -o-transition:all 0.5s ease-out;
+    transition:all 0.5s ease-out;
+}
+
+.photo:hover {
+    -webkit-transform:rotate(360deg);
+    -moz-transform:rotate(360deg);
+    -ms-transform:rotate(360deg);
+    -o-transform:rotate(360deg);
+    transform:rotate(360deg);
+}
+/* End of Classess */
+
+/* Responsive settings */
+
+@media screen and (max-width: 750px) {
+    nav ul li {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 15px;
+    }
+    .name {
+        font-size: 2em;
+    }
+}
+
+/* End of responsive settings */
